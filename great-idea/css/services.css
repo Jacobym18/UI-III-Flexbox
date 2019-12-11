@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    font-size: 20px;
 }
 ol, ul {
 	list-style: none;
@@ -85,15 +86,6 @@ nav a{
     width: 100%;
 }
 
-button{
-    /* border-radius: 12px; */
-    background:none;
-    border: 1px solid black;
-    padding:8px 50px;
-    margin-bottom: 10%;
-
-}
-
 #header{
     display: flex;
     flex-direction: column;
@@ -103,10 +95,99 @@ button{
     text-align: justify;
 }
 
+section{
+margin: 3% 0;
+}
+
 #cont1{
     display: flex;
+    text-align: left;
 }
+
 #cont1 div{
     display: flex;
     flex-direction: column;
+}
+
+ .left{
+    border: 1px solid black;
+    padding:1%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    background: whitesmoke;
+    }
+.left p{
+    margin-bottom: 3%;
+}
+
+.right{
+    border: 1px solid black;
+    padding:1%;
+    margin-bottom: 2%;
+    background: whitesmoke;
+}
+.right p{
+    margin-bottom: 3%;
+}
+
+#cont2{
+    display: flex;
+}
+
+#cont2 div{
+    display: flex;
+    flex-direction: column;
+}
+
+#cont3{
+    display: flex;
+}
+
+#cont3 div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+button{
+    border-radius: 4px;
+    background:none;
+    border: 1px solid black;
+    padding:9px;
+    width: 30%;
+    margin-bottom: 2%;
+    
+}
+
+section{
+    border-bottom: 2px solid black;
+    padding-bottom: 2%;
+}
+
+footer {
+    display: flex;
+    margin-bottom: 5%;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    margin-right: 7%;
+    justify-content: space-between;
+}
+
+footer p{
+ margin-bottom: 5%;
+}
+
+footer ul{
+    list-style-type: square;
+    padding-left: 3%;
+}
+footer li{
+    margin-bottom: 3%;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
