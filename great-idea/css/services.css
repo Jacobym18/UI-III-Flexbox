@@ -62,88 +62,51 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
-
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
-/* Your code starts here! */
 head, body {
 	width: 1000px;
 	margin: 0 auto;
 }
-body nav a{
-	margin:30px;
-}
-nav{
-	margin-bottom: 10%;
-}
-nav a{
-	text-decoration: none;
-	color: lightgrey;
-}
-#header{
-	display: flex;
-	margin:0 10%;
-	margin-bottom:8%;
-    /* flex-direction:column; */
-}
-#header .left{
-	display: flex;
-	flex-direction:column;
-	justify-content: center;
-	margin-right:15%;
-	align-items: center;
-}
-#header .left h1{
-	font-size:85px;
-	text-align:center;
-    width: 87%;
-}
-button{
-		/* border-radius: 12px; */
-		background:none;
-		border: 1px solid black;
-		padding:8px 55px;
-		margin-bottom: 10%;
-	
-	}
-#top-cont{
-	display: flex;
-	margin: 5% 0;
-}
-#top-cont p{
-	width: 87%;
-}
-.middle-img{
-	width: 100%;
-}
-#bottom-cont{
-display: flex;	
-}
-#bottom-cont div{
 
-width: 33%;
-margin: 5% 0;
+nav{
+display: flex;
+justify-content:space-between;
+align-items:center;
+margin:2%;
 }
-#bottom-cont p{
-width: 87%;
+
+nav a{
+    display: flex;
+    align-content: center;
+    text-decoration: none;
+    color: lightgrey;
 }
-address{
-	display:flex;
-	flex-direction: column;
-	align-content:space-around;
-	margin-bottom:5%;
-	
+
+.header-img img{
+    width: 100%;
 }
-address h2{
-margin-top: 2%;
+
+button{
+    /* border-radius: 12px; */
+    background:none;
+    border: 1px solid black;
+    padding:8px 50px;
+    margin-bottom: 10%;
+
 }
-address p{
-	margin-bottom: 2%;
+
+#header{
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0;
+    padding-bottom: 3%;
+    border-bottom: 0.5px solid black;
+    text-align: justify;
 }
-address .street{
-	width: 14%;
+
+#cont1{
+    display: flex;
 }
-footer{
-	display: flex;
-	justify-content: center;
-	
+#cont1 div{
+    display: flex;
+    flex-direction: column;
 }
